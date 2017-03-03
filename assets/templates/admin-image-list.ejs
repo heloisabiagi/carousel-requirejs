@@ -1,0 +1,7 @@
+<% for(var i=0; i< villains.length; i++) { %>
+	<li data-img="<%= villains[i].file %>">
+	  <img src="<%= villains[i].file %>" class="admin-thumb" />
+	  <span class="admin-img-name"><%= villains[i].name %></span>
+	  <input type="hidden" name="villain-data" class="villain-data" data-file="<%= villains[i].file %>" data-name="<%= villains[i].name %>" />
+	</li> 
+<% } %>

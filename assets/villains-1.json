@@ -1,0 +1,31 @@
+{
+	
+		"villains": 
+		[
+		{
+			"name": "Joker",
+			"file": "assets/images/joker.jpg"
+		},
+		{
+			"name": "Harley Quinn",
+			"file": "assets/images/harley-quinn.jpg"		
+		},
+		{
+			"name": "The Riddler",
+			"file": "assets/images/the-riddler.jpg"
+		},
+		{
+			"name": "Catwoman",
+			"file": "assets/images/catwoman.jpg"
+		},
+		{
+			"name": "Harvey Dent",
+			"file": "assets/images/harvey-dent.jpg"		
+		},
+		{
+			"name": "Bane",
+			"file": "assets/images/bane.jpg"
+		}
+	]
+
+}
