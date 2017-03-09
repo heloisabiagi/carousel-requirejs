@@ -1,4 +1,4 @@
-<div class="admin-wrapper">
+<div class="admin-wrapper" data-index="<%= dataIndex %>">
     <div class="admin-overlay"></div>
     <div class="admin-content">
       <a class="admin-close"> X </a>
@@ -9,10 +9,10 @@
         <h2>Imagens selecionadas:</h1>
         <ul class="admin-selected-list inline-list">
         </ul>
-        <input type="hidden" id="selected-images" data-selected='{"images":[]}'>
+        <input type='hidden' class='input-selected-images' data-selected='{"images":[]}'>
       </div>
       <div class="save-container">
-        <button class="save-button" id="admin-save-button">Salvar</button>
+        <button class="save-button admin-save-button">Salvar</button>
       </div>
 
     </div>
